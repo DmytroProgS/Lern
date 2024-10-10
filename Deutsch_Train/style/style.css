@@ -2,28 +2,68 @@
     color: brown;
     font-size: 25px;
     padding-bottom: 30px;
-    padding-top: 30px;
+    text-align: center;
+}
+
+.header {
+  text-align: center;
 }
 
 .result {
-    padding-top: 30px;
     font-size: 20px;
+     text-align: center;
 }
 
 .red {
     background-color: red;
     color: white;
     padding: 10px;
+    text-align: center;
 }
 
 .green {
     background-color: green;
     color: white;
     padding: 10px;
+    text-align: center;
 }
 
 .blue {
     background-color: blue;
     color: white;
     padding: 10px;
+    text-align: center;
 }
+
+.button-field {
+  display: flex;
+  justify-content: space-around;
+}
+
+#der  {
+  width: 75px;
+  height: 50px;
+
+}
+
+#die{
+    width: 75px;
+    height: 50px;
+}
+
+#das{
+    width: 75px;
+    height: 50px;
+}
+.button-next {
+    display: flex;
+    justify-content: space-around;
+}
+
+#Update{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 75px;
+    text-align: center;
+}
+
